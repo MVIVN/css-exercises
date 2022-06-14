@@ -11,7 +11,25 @@
 .top-container {
     background-color: lightblue;
     border: 3px solid blue;
+    padding: 12px;
     margin-bottom: 12px;
     flex: 1;
     display: flex;
+}
+
+.top-container div {
+    background-color: lightpink;
+    border: 3px solid saddlebrown;
+    padding: 6px;
+    flex: 3;
+}
+
+.top-two {
+    display: flex;
+    margin: 0 6px;
+}
+
+.top-two div {
+    background-color: peachpuff;
+    border-color: red;
 }
