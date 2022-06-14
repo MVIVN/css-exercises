@@ -6,6 +6,7 @@
     margin: 12px auto;
     padding: 12px;
     display: flex;
+    flex-flow: column;
 }
 
 .top-container {
@@ -32,4 +33,36 @@
 .top-two div {
     background-color: peachpuff;
     border-color: red;
+}
+
+.middle-container {
+   display: flex;
+   flex: 2;
+   margin-bottom: 12px; 
+}
+
+.middle-one {
+    background-color: aqua;
+    border: 3px solid limegreen;
+    flex: 2;
+}
+
+.middle-twins {
+    display: flex;
+    flex: 2;
+    flex-flow: column;
+}
+
+.middle-twins div {
+    background-color: aqua;
+    border: 3px solid limegreen;
+    flex: 1;
+}
+
+.middle-two {
+    margin: 0 0 6px 6px;
+}
+
+.middle-three {
+    margin: 0 0 0 6px;
 }
