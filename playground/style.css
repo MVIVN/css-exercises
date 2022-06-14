@@ -1,3 +1,8 @@
-.maincontainer {
+.main-container {
+    width: 600px;
+    height: 400px;
+    background-color:lightgreen;
+    border: 3px solid darkgreen;
+    margin: 12px auto;
     display: flex;
 }
