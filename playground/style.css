@@ -72,6 +72,31 @@
     background-color: lightblue;
     border: 3px solid blue;
     padding: 6px;
+    flex: 1; 
+ }
+
+ .bottom-one,
+ .bottom-four {
+    border: 3px solid darkolivegreen;
+    background-color: purple;
     flex: 1;
-    margin-bottom: 12px; 
+ }
+
+ .middle-bottom {
+    display: flex;
+    flex: 1;
+ }
+
+ .middle-bottom div {
+    background-color: lightpink;
+    border: 3px solid saddlebrown;
+    flex: 1;
+ }
+
+ .bottom-two {
+    margin: 0 1.5px 0 3px;
+ }
+
+ .bottom-three {
+    margin: 0 3px 0 1.5px;
  }
