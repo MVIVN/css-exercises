@@ -4,6 +4,21 @@ body {
   min-height: 100vh;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-container {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px auto 32px 32px;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -19,7 +34,20 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex-shrink: 0;
 }
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 12px auto auto -20px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li {padding: 3px 0;}
 
 .card {
   border: 1px solid #eee;
