@@ -19,22 +19,42 @@ body {
   margin: 32px auto 32px 32px;
 }
 
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  width: 300px;
+  height: 300px;
+  padding: 12px;
+  margin: 0 32px 32px 0;
+}
+
 .header {
+  display: flex;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .footer {
+  display: flex;
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   flex-shrink: 0;
+  font-size: 24px;
 }
 
 .sidebar ul {
@@ -47,10 +67,4 @@ body {
   color: white;
 }
 
-ul li {padding: 3px 0;}
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
-}
+ul li {padding: 5px 0;}
